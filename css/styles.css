@@ -10,7 +10,8 @@ header{
 }
 body{
     margin:1px;
-    background-color: rgb(218, 216, 216)
+    background-color: rgb(218, 216, 216);
+
 }
 .logo{
     align-items: center;
@@ -33,7 +34,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin:30px 85px 30px 85px;
+    margin:30px 15px 30px 15px;
 }
 /* Imagen de la derecha */
 #podio-pizzas{
