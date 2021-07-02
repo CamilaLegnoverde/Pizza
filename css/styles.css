@@ -1,0 +1,113 @@
+/* Nav y header */
+header{
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 10px -1px gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    margin:1px;
+    background-color: rgb(218, 216, 216)
+}
+.logo{
+    align-items: center;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+}
+#caja{
+    width: 500px;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Contenedor de las imágenes */
+.cards{
+    background-color: rgb(218, 216, 216);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:30px 85px 30px 85px;
+}
+/* Imagen de la derecha */
+#podio-pizzas{
+    border-radius: 2%;
+    background-color: white;
+    width: 490px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#podio-pizza, div{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: red;
+}
+.pizza{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+#pizza-cayendo{
+    height: 129px;
+    width: 92px;
+    padding: 60px;
+}
+#lista{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* Imagen de la izqiuerda */
+#delivery{
+    width: 490px;
+    height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:flex-start;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#envio{
+    position:relative;
+    top: 70px;
+    margin: 20px;
+    color: red;
+}
+span{
+    color:white;
+}
+/* footer */
+footer{
+    padding: 1px 10px;
+    margin: 1px;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo2{
+    width: 280px;
+    margin: 30px 10px;
+}
+#pizza-font{
+    width: 120px;
+    height: 20px;
+    padding: 30px 8px;
+}
+#lista-footer{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin: 10px;
+}
